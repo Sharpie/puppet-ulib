@@ -1,0 +1,15 @@
+{
+  "name":          "sharpie/ulib",
+  "version":       "0.0.1",
+  "author":        "Charlie Sharpsteen",
+  "summary":       "UnStandard library of useful Puppet functions.",
+  "license":       "Apache 2.0",
+
+  "source":        "https://github.com/Sharpie/puppet-ulib",
+  "project_page":  "https://github.com/Sharpie/puppet-ulib",
+  "issues_url":    "https://github.com/Sharpie/puppet-ulib/issues",
+
+  "dependencies": [
+  ]
+}
+

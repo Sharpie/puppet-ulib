@@ -1,0 +1,21 @@
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+tags
+
+## RUBY
+.bundle
+.ruby-version
+Gemfile.lock
+Gemfile.local
