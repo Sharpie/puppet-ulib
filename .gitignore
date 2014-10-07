@@ -19,3 +19,6 @@ tags
 .ruby-version
 Gemfile.lock
 Gemfile.local
+
+.rspec
+spec/fixtures

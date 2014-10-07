@@ -1,0 +1,3 @@
+fixtures:
+  symlinks:
+    ulib: "#{source_dir}"
