@@ -8,6 +8,8 @@ describe 'ulib::init' do
   it { expect(subject).to run.with_params(input, 2).and_return([1]) }
   it { expect(subject).to run.with_params(input, 10).and_return([]) }
 
+  it { expect(subject).to run.with_params([1]).and_return([]) }
+
   # Stuff we don't accept.
   it { should run.with_params(input, -1).and_raise_error(/called with mis-matched arguments/) }
   it { should run.with_params(udef).and_raise_error(/called with mis-matched arguments/) }

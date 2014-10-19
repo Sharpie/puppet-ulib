@@ -15,7 +15,9 @@ Puppet::Functions.create_function('ulib::tail') do
   end
 
   def tail_Array(array)
-    call_function('ulib::last', array, array.length - 1)
+    length = array.length - 1
+    return [] if (length < 1)
+    call_function('ulib::last', array, length)
   end
 
   def tail_Array_n(array, n)

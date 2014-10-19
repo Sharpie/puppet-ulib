@@ -14,7 +14,9 @@ Puppet::Functions.create_function('ulib::init') do
   end
 
   def init_Array(array)
-    call_function('ulib::first', array, array.length - 1)
+    length = array.length - 1
+    return [] if (length < 1)
+    call_function('ulib::first', array, length)
   end
 
   def init_Array_n(array, n)
