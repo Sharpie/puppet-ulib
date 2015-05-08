@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'puppet', (ENV['PUPPET_VERSION'] || '~> 3.7.0')
+gem 'puppet', (ENV['PUPPET_VERSION'] || '~> 4.0.0')
 
 # FIXME: This code enables the future parser, but should probably be done a a
 # different level... rake perhaps?
